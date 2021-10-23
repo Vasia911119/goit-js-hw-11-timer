@@ -1,0 +1,61 @@
+.timer {
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+  height: 40vh;
+  margin: 0 auto;
+  background-image: url(../img/n-y.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 0 10px 10px;
+  border-bottom: 5px solid tomato;
+  border-right: 5px solid tomato;
+  border-left: 5px solid tomato;
+}
+.field {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  border: 5px solid tomato;
+  background-color: green;
+  border-radius: 10px;
+}
+.value {
+  font-size: 50px;
+  color: yellow;
+  -webkit-text-stroke: 0.07em rgba(255, 5, 5, 0.5);
+  text-shadow: 0.04em 0 rgb(0, 0, 0);
+  padding: 0 5px;
+}
+.label {
+  font-size: 50px;
+  color: yellow;
+  background-color: rgb(11, 207, 165);
+  -webkit-text-stroke: 0.07em rgba(255, 5, 5, 0.5);
+  text-shadow: 0.04em 0 rgb(0, 0, 0);
+}
+h1 {
+  border-top: 5px solid tomato;
+  border-right: 5px solid tomato;
+  border-left: 5px solid tomato;
+  height: 13vh;
+  background-color: green;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: center;
+  margin: 20vh auto 0;
+  color: yellow;
+  -webkit-text-stroke: 0.07em rgba(255, 5, 5, 0.5);
+  text-shadow: 0.04em 0 rgb(0, 0, 0);
+  font-size: 85px;
+  width: 50vw;
+}
+body {
+  background: rgb(160, 195, 34);
+  background-image: repeating-linear-gradient(
+    to bottom,
+    rgb(117, 29, 2),
+    rgb(56, 15, 3) 7%,
+    rgb(100, 100, 100) 10%
+  );
+}
